@@ -1,1 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.wrapper {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+/* .coverWrapper {
+    margin-bottom: 50px;
+} */
+
+.cover {
+    width: 350px;
+}
+
+.buttonsWrapper {
+    display: flex;
+    gap: 10px;
+    margin: 50px 0;
+}
+
+.button {
+    background-color: pink;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
